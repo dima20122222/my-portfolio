@@ -1,0 +1,29 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.headers-list {
+    display: flex;
+    gap: 20px;
+}
+
+.headers-item {
+    background-color: blue;
+    color: yellow;
+    width: 200px;
+    border-radius: 40px;
+    list-style: none;
+}
+
+.headers-link {
+    color: yellow;
+    text-decoration: none;
+    align-items: center;
+    margin-left: 50px;
+}
+
+
+.headers-item:hover {
+    background-color: blueviolet;
+}
+
